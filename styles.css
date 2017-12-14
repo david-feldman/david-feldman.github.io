@@ -524,7 +524,7 @@ a:hover {
 }
 @media (hover: hover) {
     .footer__link:nth-child(odd):hover~.crumple {
-        background-color: #34a853
+        background-color: #3d6eff
     }
     .footer__link:nth-child(2n):hover~.crumple {
         background-color: #ce0028
@@ -545,7 +545,7 @@ a:hover {
         -webkit-animation: d 1s .25s linear forwards;
         animation: d 1s .25s linear forwards
     }
-    .footer__link--resume:hover~.crumple:after {
+    .footer__link--twitter:hover~.crumple:after {
         -webkit-animation: e 1s .25s linear forwards;
         animation: e 1s .25s linear forwards
     }
