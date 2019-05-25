@@ -338,7 +338,7 @@ html {
 }
 body {
     margin: 0;
-    font: 17px/1.5 Calluna-Regular, serif;
+    font: 17px/1.5 Oakes-Semi-Bold, sans-serif;
     color: #f8f8f6;
     background-color: #0c0c0c;
     -webkit-font-smoothing: antialiased;
@@ -366,8 +366,8 @@ a {
 }
 a:focus,
 a:hover {
-    color: #3d6eff;
-    border-bottom: 1px solid #3d6eff
+    color: #3D6EFF;
+    border-bottom: 1px solid #3D6EFF
 }
 ::-moz-focus-inner {
     padding: 0;
@@ -378,15 +378,15 @@ a:hover {
 }
 ::selection {
     text-shadow: none;
-    background: #3d6eff
+    background: #3D6EFF
 }
 ::-moz-selection {
     text-shadow: none;
-    background: #3d6eff
+    background: #3D6EFF
 }
 .u-sans {
-    font: 700 17px/1 Oakes-Semi-Bold, sans-serif;
-    letter-spacing: .02em
+    font: 700 24px/1 Oakes-Semi-Bold, sans-serif;
+    letter-spacing: .01em
 }
 .u-sans--small {
     font-size: 15px
@@ -437,7 +437,7 @@ a:hover {
 }
 .section__col {
     width: 100%;
-    max-width: 382px
+    max-width: 600px
 }
 @media (max-width: 600px) {
     .section__col {
@@ -446,14 +446,14 @@ a:hover {
 }
 .bio {
     margin-bottom: -.45em;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 100;
     max-width: 700px
 }
 @media (max-width: 600px) {
     .bio {
         padding-top: 15vw;
-        font-size: 18px
+        font-size: 20px
     }
 }
 .list {
@@ -523,11 +523,14 @@ a:hover {
     }
 }
 @media (hover: hover) {
-    .footer__link:nth-child(odd):hover~.crumple {
-        background-color: #34a853
+    .footer__link:nth-child(1):hover~.crumple {
+        background-color: #006494
     }
-    .footer__link:nth-child(2n):hover~.crumple {
-        background-color: #ce0028
+    .footer__link:nth-child(2):hover~.crumple {
+        background-color: #2A4494
+    }
+    .footer__link:nth-child(3):hover~.crumple {
+        background-color: #104F55
     }
     .footer__link--email:hover~.crumple:after {
         -webkit-animation: a 1s .25s linear forwards;
